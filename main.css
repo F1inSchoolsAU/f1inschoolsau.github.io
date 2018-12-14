@@ -1,0 +1,59 @@
+body {
+    background-color: #15151E;
+}
+
+
+#logo1 {
+    margin: auto;
+}
+#logo1 svg {
+    padding-top: 30px;
+    position: absolute;
+    left: 50%;
+    height: 75px;
+    transform: translateX(-50%);
+}
+
+h1 {
+    font-family: 'F1';
+    color: #ffffff;
+}
+
+#custom-container {
+    height: 100%;
+    position: relative;
+}
+
+#header1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background: #15151E;
+    box-shadow: none;
+    color: #e10600;
+    appearance: none;
+    border-radius: 5px;
+    border: solid 2px #e10600;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(0.2, 0, 0.05, 1);
+    font-family: "Titillium Web";
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    position: relative;
+    padding: 12px 15px 12px 15px;
+}
